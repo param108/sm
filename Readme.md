@@ -12,3 +12,13 @@ You will be able to add a state-machine member to your struct and allow it to be
 ```
 go build
 ```
+
+# Running
+ 
+ Right now it outputs a graphviz definition of the statemachine in `dot` language. To generate the png you can use
+ 
+ ```
+ ./sm > a.dot
+ dot -Tpng a.dot > a.png
+ 
+ ```
