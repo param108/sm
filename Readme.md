@@ -22,3 +22,4 @@ go build
  dot -Tpng a.dot > a.png
  
  ```
+![a](https://user-images.githubusercontent.com/331871/130680480-f100a21d-40ab-4709-9e89-b826f5e8c763.png)
